@@ -99,13 +99,9 @@ _,,)\.~,,._
             position: relative;
         }
         
-        #login {
-            display: none;
-        }
-        
         .carousel-indicators {
-            position: absolute;
-            top: 970px;
+            position: relative;
+            top: 20px;
         }
         
         #scroll #section3 {
@@ -114,6 +110,7 @@ _,,)\.~,,._
             background-color: lightgray;
             margin: 10px auto;
             width: 800px;
+            clear: both;
         }
         
         footer {
@@ -155,6 +152,10 @@ _,,)\.~,,._
                 top: 85%;
                 left: 75%;
             }
+                                    #section2 {
+                max-height: 100%;
+                max-width: 100%;
+            }
         }
         
         @media screen and ( max-width:767px) {
@@ -166,8 +167,11 @@ _,,)\.~,,._
             [class*="col-md-"] {
                 margin-left: 0;
             }
+                        #section2 {
+                max-height: 100%;
+                max-width: 100%;
+            }
         }
-
     </style>
 </head>
 
