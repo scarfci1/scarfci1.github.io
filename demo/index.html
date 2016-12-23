@@ -61,7 +61,7 @@ _,,)\.~,,._
 <html>
 
 <head>
-    <title>這是網頁名稱</title>
+    <title>Demo</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -98,6 +98,10 @@ _,,)\.~,,._
             position: relative;
         }
         
+        #login {
+            display: none;
+        }
+        
         .carousel-indicators {
             position: absolute;
             top: 970px;
@@ -111,12 +115,12 @@ _,,)\.~,,._
             width: 800px;
         }
         
-        #section41 {
+        #section42 {
             padding-top: 50px;
-            height: 500px;
+            height: 700px;
         }
         
-        #section42 {
+        #section41 {
             padding-top: 50px;
             height: 700px;
         }
@@ -197,6 +201,10 @@ _,,)\.~,,._
             border-radius: 15px;
         }
         
+        .btn:link {
+            text-decoration: none;
+        }
+        
         @media screen and ( min-width:768px) and ( max-width:991px) {
             #to_top {
                 position: fixed;
@@ -231,7 +239,6 @@ _,,)\.~,,._
                 border-radius: 15px;
             }
         }
-
     </style>
 </head>
 
@@ -254,8 +261,8 @@ _,,)\.~,,._
                 <div class="collapse navbar-collapse" id="myNavbar">
                     <ul class="nav navbar-nav">
                         <!--超連結連結到下面的段落ＩＤ-->
-                        <li><a href="#section1">你看的到右下角的置頂嗎</a></li>
-                        <li><a href="#section2">你家滑鼠沒滾輪嗎</a></li>
+                        <li><a href="#section1">介紹</a></li>
+                        <li><a href="#section2">各種功能</a></li>
                         <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">客人應該看不到這個<span class="caret"></span></a>
                             <ul class="dropdown-menu">
                                 <li><a href="#section41">想畫甚麼嗎?</a></li>
@@ -269,8 +276,8 @@ _,,)\.~,,._
     </nav>
 
     <div id="section1" class="container-fluid">
-        <h1>Section 1</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias animi quae saepe provident incidunt cumque magnam sapiente harum, vero iste, obcaecati pariatur adipisci ipsa perferendis explicabo iure eaque non sit tempore veniam nemo voluptatum</p>
+        <h1>沒有標題!</h1>
+        <p>這個網站目前還沒完成 繪圖板有點難畫...</p>
     </div>
     <div id="section2" class="container-fluid">
 
@@ -282,35 +289,35 @@ _,,)\.~,,._
                     <div id="section3" class="container-fluid">
                         <h1>About Me</h1>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia molestiae doloribus, accusantium explicabo. Molestiae, fugit cupiditate perspiciatis eos omnis voluptatibus placeat laboriosam totam nihil, deleniti quod necessitatibus, aperiam aspernatur quae nesciunt consequatur impedit fugiat? Exercitationem doloribus incidunt quibusdam, non!...</p>
-                        <a href="#" id="Cmore">See more</a>
+                        <a href="#" class="btn" id="Cmore">See more</a>
                     </div>
                 </div>
                 <div id="scroll" class="item"><img src="https://source.unsplash.com/800x601" alt="">
                     <div id="section3" class="container-fluid">
                         <h1>My gallery</h1>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia molestiae doloribus, accusantium explicabo. Molestiae, fugit cupiditate perspiciatis eos omnis voluptatibus placeat laboriosam totam nihil, deleniti quod necessitatibus, aperiam aspernatur quae nesciunt consequatur impedit fugiat? Exercitationem doloribus incidunt quibusdam, non!..</p>
-                        <a href="#" id="Cmore">點此查看圖片</a>
+                        <a href="#" class="btn" id="Cmore">點此查看圖片</a>
                     </div>
                 </div>
                 <div id="scroll" class="item"><img src="https://source.unsplash.com/800x602" alt="">
                     <div id="section3" class="container-fluid">
                         <h1>Want to leave a trail?</h1>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia molestiae doloribus, accusantium explicabo. Molestiae, fugit cupiditate perspiciatis eos omnis voluptatibus placeat laboriosam totam nihil, deleniti quod necessitatibus, aperiam aspernatur quae nesciunt consequatur impedit fugiat? Exercitationem doloribus incidunt quibusdam, non!..</p>
-                        <a href="#" id="Cmore">Draw on your own!</a>
+                        <a href="#" class="btn" id="Cmore">Draw on your own!</a>
                     </div>
                 </div>
                 <div id="scroll" class="item"><img src="https://source.unsplash.com/800x599" alt="">
                     <div id="section3" class="container-fluid">
                         <h1>Comments(客人在此留言)</h1>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia molestiae doloribus, accusantium explicabo. Molestiae, fugit cupiditate perspiciatis eos omnis voluptatibus placeat laboriosam totam nihil, deleniti quod necessitatibus, aperiam aspernatur quae nesciunt consequatur impedit fugiat? Exercitationem doloribus incidunt quibusdam, non!..</p>
-                        <a href="#" id="Cmore">leave a comment</a>
+                        <a href="#" class="btn" id="Cmore">leave a comment</a>
                     </div>
                 </div>
                 <div id="scroll" class="item"><img src="https://source.unsplash.com/800x598" alt="">
                     <div id="section3" class="container-fluid">
                         <h1>Guests' Gallery</h1>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia molestiae doloribus, accusantium explicabo. Molestiae, fugit cupiditate perspiciatis eos omnis voluptatibus placeat laboriosam totam nihil, deleniti quod necessitatibus, aperiam aspernatur quae nesciunt consequatur impedit fugiat? Exercitationem doloribus incidunt quibusdam, non!..</p>
-                        <a href="#" id="Cmore">看客人們留下的圖</a>
+                        <a href="#" class="btn" id="Cmore">看客人們留下的圖</a>
                     </div>
                 </div>
             </div>
@@ -333,26 +340,47 @@ _,,)\.~,,._
     </div>
     <div id="section41" class="container-fluid">
         <h1>想畫甚麼嗎(擁有者專用 客人不得進入)</h1>
-        <a href="#" id="add">這裡有比客人用的更完整的繪畫圖版</a>
+        <button id="add" class="btn">這裡有比客人用的更完整的繪畫圖版</button>
 
+        <form action="path/to/serverside-script.php" id="login">
+            帳號/Email:<br>
+            <input type="text" name="username" placeholder="請輸入帳號">
+            <br> 密碼:
+            <br>
+            <input type="password" name="password" placeholder="請輸入密碼">
+            <br><br>
+            <input type="submit" value="登入">
+        </form>
     </div>
-    <div id="section42" class="container-fluid">
+    <div id="section43" class="container-fluid">
         <h1>編輯頁面(一樣擁有者專用)</h1>
-        <div class="row">
+        <form action="path/to/serverside-script.php" id="login2">
+            帳號/Email:<br>
+            <input type="text" name="username" placeholder="請輸入帳號">
+            <br> 密碼:
+            <br>
+            <input type="password" name="password" placeholder="請輸入密碼">
+            <br><br>
+            <input type="submit" value="登入">
+        </form>
+    </div>
+
+    <div id="section42" class="container-fluid">
+        <div id="editweb" class="row">
             <div class="col-md-1"><img src="https://source.unsplash.com/60x60" alt="" id="edit_image">
                 <h3>想加上畫框?</h3>
-                <p id="word">好好的畫沒畫框就是少了點滋味...</p><a id="edit" href="#">畫框</a></div>
+                <p id="word">好好的畫沒畫框就是少了點滋味...</p><a id="edit" class="btn" href="#">畫框</a></div>
             <div class="col-md-2"><img src="https://source.unsplash.com/60x60" alt="" id="edit_image">
                 <h3>想為網頁多點設計?</h3>
                 <p id="word">
-                    <!--甚麼!?我覺得我做得好好地你覺得很醜!?(被拖走)-->你自己也可以設計網頁樣式!</p><a id="edit" href="#">裝飾</a></div>
+                    <!--甚麼!?我覺得我做得好好地你覺得很醜!?(被拖走)-->你自己也可以設計網頁樣式!</p><a id="edit" class="btn" href="#">裝飾</a></div>
             <div class="col-md-3"><img src="https://source.unsplash.com/60x60" alt="" id="edit_image">
                 <h3>編輯你的畫?</h3>
-                <p id="word">後悔了嗎?建議在畫出來之前再看一下自己有沒有畫錯 避免改完又畫壞了</p><a id="edit" href="#">編輯</a>
+                <p id="word">後悔了嗎?建議在畫出來之前再看一下自己有沒有畫錯 避免改完又畫壞了</p><a id="edit" class="btn" href="#">編輯</a>
             </div>
         </div>
     </div>
-    <a href="" class="thumbnail">
+    <a href="#" class="btn" id="totop">
         <img src="https://source.unsplash.com/150x150?nature" alt="" id="to_top">
     </a>
     <footer>
@@ -366,8 +394,3 @@ _,,)\.~,,._
 </body>
 
 </html>
-
-<!--TODO 把客人跟擁有者的繪圖板各別畫出來!!-->
-
-
-<!--TODO 把各個按鈕做好(包含不要游動時會出現底線跟css特效)-->
